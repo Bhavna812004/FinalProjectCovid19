@@ -187,8 +187,12 @@ def countySearch():
     return res
 
 @app.route("/heatmap")
-def state():
+def heatmap():
     return render_template("heatmap.html")
+
+@app.route("/prediction")
+def prediction():
+    return render_template("prediction.html")
 
 @app.route("/faq")
 def faq():

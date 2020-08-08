@@ -3,13 +3,11 @@
     font-family: Ubuntu, sans-serif;
 }
 
-html,
-body {
+html, body {
     height: 100%;
     padding: 0;
     margin: 0;
 }
-
 
 /* The wrapper contains all of the page's content besides the footer, which is pushed to the bottom of the page */
 
@@ -19,7 +17,6 @@ body {
     padding-bottom: 130px;
     overflow: auto;
 }
-
 
 /* The footer is positioned at the bottom of the page */
 
@@ -31,7 +28,6 @@ body {
     min-height: 100px;
     background: #4e5d6c;
 }
-
 
 /* The code styles the text at the bottom of the footer */
 
@@ -49,7 +45,6 @@ body {
     margin: 0;
 }
 
-
 /* This CSS styles the ufo icon in the navbar */
 
 .nav-ufo {
@@ -59,7 +54,6 @@ body {
     width: 35px;
     color: white;
 }
-
 
 /* Adding styles to the aside and filter form */
 
@@ -87,10 +81,12 @@ select {
     text-align: center;
 }
 
-#table-area th:first-child,
-#table-area th:nth-child(2),
-#table-area th:nth-child(6) {
+#table-area th:first-child, #table-area th:nth-child(2), #table-area th:nth-child(6) {
     min-width: 70px;
+}
+
+th{
+    color: white;
 }
 
 .loader {
@@ -100,7 +96,6 @@ select {
 .margin-top-50 {
     margin-top: 50px;
 }
-
 
 /* The styles for the parallax */
 
@@ -177,7 +172,6 @@ select {
     color: #8e979f;
 }
 
-
 /* media queries which will only be activated at specific screen sizes */
 
 @media (max-width: 800px) {
@@ -224,7 +218,6 @@ select {
         animation: smaller-title 1.2s forwards linear;
     }
 }
-
 
 /* keyframe animations which will be used to animate the title */
 
